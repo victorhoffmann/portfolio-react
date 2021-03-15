@@ -1,0 +1,28 @@
+footer {
+    margin: 10vh 0 1vh;
+    text-align: center;
+}
+
+footer p strong {
+    font-size: 2vh;
+}
+
+footer span {
+    font-size: 1.5vh;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.icons li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.icons li a {
+    color: var(--color-text-dark);
+    font-size: 24px;
+}

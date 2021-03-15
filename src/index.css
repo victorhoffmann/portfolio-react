@@ -1,8 +1,17 @@
+:root {
+  --bg-color-dark: #16161d;
+  --color-text-dark: #fff;
+  --color-ball-dark: #16161d;
+  --bg-color-light: #fff;
+  --color-text-light: #16161d;
+  --color-ball-light: #fff;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background-color: var(--bg-color-dark);
+  color: var(--color-text-dark);
+  font-family: 'Source Code Pro', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

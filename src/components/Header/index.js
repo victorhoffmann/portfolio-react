@@ -1,8 +1,5 @@
 import './style.css'
 import React, { useState } from 'react'
-import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 
 const Header = () => {
     const [tema, setTema] = useState('dark')
@@ -19,18 +16,17 @@ const Header = () => {
                     onClick={() => toggleTema()}
                 />
                 <label className={`label label-${tema}`} for="btnSwitch">
-                    <FontAwesomeIcon icon={faMoon} />
-                    <FontAwesomeIcon icon={faSun} />
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
                 <div className={`ball ball-${tema}`}></div>
                 </label>
             </div>
 
             <div className='links'>
                 <ul>
-                    <li><a href='#header' className={`text-${tema}`}>Inicio</a></li>
+                    <li><a href='#inicio' className={`text-${tema}`}>Inicio</a></li>
                     <li><a href='#sobre' className={`text-${tema}`}>Sobre</a></li>
                     <li><a href='#projetos' className={`text-${tema}`}>Projetos</a></li>
-                    <li><a href='#contato' className={`text-${tema}`}>Contato</a></li>
                 </ul>
             </div>
         </header>

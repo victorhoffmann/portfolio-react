@@ -1,17 +1,3 @@
-:root {
-    --bg-color-dark: #16161d;
-    --color-text-dark: #fff;
-    --color-ball-dark: #16161d;
-    --bg-color-light: #fff;
-    --color-text-light: #16161d;
-    --color-ball-light: #fff;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
 header {
 	display: flex;
 	align-items: center;

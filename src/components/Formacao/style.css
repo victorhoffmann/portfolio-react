@@ -1,0 +1,17 @@
+#escolaridade {
+    margin-left: 4vw;
+}
+
+#escolaridade section article{
+    display: inline-block;
+    min-width: calc(50% - 16px);
+    vertical-align: top;
+    min-height: 13vh;
+    margin-top: -10px
+}
+
+.ano {
+    color: #888;
+    display: block;
+    font-style: italic;
+}

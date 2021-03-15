@@ -1,0 +1,11 @@
+#habilidades {
+    margin-left: 4vw;
+}
+
+.skills {
+    display: inline-block;
+    min-width: calc(50% - 16px);
+    vertical-align: top;
+    min-height: 172px;
+    margin-top: -10px
+}
